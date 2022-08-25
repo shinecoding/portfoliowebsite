@@ -15,7 +15,7 @@ import 'swiper/css/pagination';
 const data = [
   {
     avatar: "/testimonial1.jpg",
-    name: 'Dahye Ahn - Mushinsa Site Reliability Engineer',
+    name: 'Dahye Ahn - AboutHere Data Engineer',
     review: 'One of the very few people you can definitely trust when it comes to tech projects. I\'m running a side project with Christy and her dedication and positive attitude to work boosted the team spirit. Christy will get the work done no matter what and will always delivers the result on time. I decided to run another side project with her because I respect her work ethic and self-motivation. If you are looking for a developer, Christy is absolutely the right one to go with.'
   },
   {

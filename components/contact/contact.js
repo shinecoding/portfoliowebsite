@@ -25,12 +25,12 @@ const Contact = () => {
           <article className={classes.contact__option}>
             <MdOutlineEmail className={classes.contact__icon}/>
             <h4>Email</h4>
-            <a href="mailto:christychoi.dev@gmail.com" target="_blank">Send a message</a>
+            <a href="mailto:christychoi.dev@gmail.com" target="_blank" rel="noreferrer">Send a message</a>
           </article>
           <article className={classes.contact__option}>
             <RiMessengerLine className={classes.contact__icon}/>
             <h4>1:1 Kakao Chat</h4>
-            <a href="https://open.kakao.com/o/svGAvLxe" target="_blank">Send a message</a>
+            <a href="https://open.kakao.com/o/svGAvLxe" target="_blank" rel="noreferrer">Send a message</a>
           </article>
           <article className={classes.contact__option}>
             <BsWhatsapp className={classes.contact__icon}/>

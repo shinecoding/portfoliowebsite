@@ -49,10 +49,6 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className={classes.service__icon} />
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            </li>
-            <li>
-              <BiCheck className={classes.service__icon} />
               <p>comfortable with both ORMs and RDBMS</p>
             </li>
             <li>

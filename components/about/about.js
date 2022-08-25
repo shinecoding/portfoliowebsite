@@ -13,7 +13,7 @@ const About = () => {
       <div className={`container ${classes.about__container}`}>
         <div className={classes.about__me}>
           <div className={classes.about__image}>
-          <Image src='/me-about.png' width="500rem" height="500rem" alt="About Image"/>
+          <Image src="/me-about.png" width="500rem" height="500rem" alt="About Image"/>
           </div>
         </div>
         <div className={classes.about__content}>
@@ -37,9 +37,9 @@ const About = () => {
             </article>
           </div>
           <p>
-          I consider myself a lifelong learner, that's the reason I'm in tech. My primary focus is developing production-quality Django applications, currently for a startup company in Korea. I've worked in all stages of web development, from database design to frontend, backend, and devops.
+          I consider myself a lifelong learner, that&apos;s the reason I&apos;m in tech. My primary focus is developing production-quality Django applications, currently for a startup company in Korea. I&apos;ve worked in all stages of web development, from database design to frontend, backend, and devops.
           </p>
-          <a href="#contact" className="btn btn-primary">Let's Talk</a>
+          <a href="#contact" className="btn btn-primary">Let&apos;s Talk</a>
         </div>
       </div>
     </section>
