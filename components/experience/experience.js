@@ -17,42 +17,42 @@ const Experience = () => {
               <BsFillPatchCheckFill className={classes.experience__icon} />
               <div>
                 <h4>Next.js</h4>
-                <small className="text-light">Experienced</small>
+                
               </div>
             </article>
             <article className={classes.experience__details}>
               <BsFillPatchCheckFill className={classes.experience__icon} />
               <div>
                 <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
+                
               </div>
             </article>
             <article className={classes.experience__details}>
               <BsFillPatchCheckFill className={classes.experience__icon} />
               <div>
                 <h4>CSS</h4>
-                <small className="text-light">Experienced</small>
+                
               </div>
             </article>
             <article className={classes.experience__details}>
               <BsFillPatchCheckFill className={classes.experience__icon} />
               <div>
                 <h4>JavaScript</h4>
-                <small className="text-light">Experienced</small>
+                
               </div>
             </article>
             <article className={classes.experience__details}>
               <BsFillPatchCheckFill className={classes.experience__icon} />
               <div>
                 <h4>Bootstrap</h4>
-                <small className="text-light">Experienced</small>
+                
               </div>
             </article>
             <article className={classes.experience__details}>
               <BsFillPatchCheckFill className={classes.experience__icon} />
               <div>
                 <h4>JQuery</h4>
-                <small className="text-light">Experienced</small>
+                
               </div>
             </article>
           </div>
@@ -64,42 +64,42 @@ const Experience = () => {
               <BsFillPatchCheckFill className={classes.experience__icon} />
               <div>
                 <h4>Django</h4>
-                <small className="text-light">Experienced</small>
+                
               </div>
             </article>
             <article className={classes.experience__details}>
               <BsFillPatchCheckFill className={classes.experience__icon} />
               <div>
                 <h4>Python</h4>
-                <small className="text-light">Experienced</small>
+                
               </div>
             </article>
             <article className={classes.experience__details}>
               <BsFillPatchCheckFill className={classes.experience__icon} />
               <div>
                 <h4>AWS</h4>
-                <small className="text-light">Experienced</small>
+                
               </div>
             </article>
             <article className={classes.experience__details}>
               <BsFillPatchCheckFill className={classes.experience__icon} />
               <div>
                 <h4>PostgreSQL</h4>
-                <small className="text-light">Experienced</small>
+                
               </div>
             </article>
             <article className={classes.experience__details}>
               <BsFillPatchCheckFill className={classes.experience__icon} />
               <div>
                 <h4>Java</h4>
-                <small className="text-light">Experienced</small>
+                
               </div>
             </article>
             <article className={classes.experience__details}>
               <BsFillPatchCheckFill className={classes.experience__icon} />
               <div>
                 <h4>Spring</h4>
-                <small className="text-light">Experienced</small>
+                
               </div>
             </article>
           </div>
