@@ -21,7 +21,7 @@ const About = () => {
             <article className={classes.about__card}>
               <FaAward className="about__icon"/>
               <h5>Experience</h5>
-              <small>1.5 Year Working</small><br/>
+              <small>2 Year Working</small><br/>
               <small>software engineer</small>
             </article>
             <article className={classes.about__card}>
@@ -37,7 +37,7 @@ const About = () => {
             </article>
           </div>
           <p>
-          I consider myself a lifelong learner, that&apos;s the reason I&apos;m in tech. My primary focus is developing production-quality Django applications, currently for a startup company in Korea. I&apos;ve worked in all stages of web development, from database design to frontend, backend, and devops.
+          I consider myself a lifelong learner, that&apos;s the reason I&apos;m in tech. My primary focus is developing production-quality Django applications, currently for a startup company. I&apos;ve worked in all stages of web development, from software design to frontend, backend, and dev-ops.
           </p>
           <a href="#contact" className="btn btn-primary">Let&apos;s Talk</a>
         </div>
