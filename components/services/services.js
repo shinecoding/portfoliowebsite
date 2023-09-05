@@ -53,7 +53,7 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className={classes.service__icon} />
-              <p><b>Authentication and Security</b>:Integrating secure authentication and authorization mechanisms to safeguard user data and restrict access to sensitive functionalities.</p>
+              <p><b>Authentication and Security</b>: Integrating secure authentication and authorization mechanisms to safeguard user data and restrict access to sensitive functionalities.</p>
             </li>
             <li>
               <BiCheck className={classes.service__icon} />
