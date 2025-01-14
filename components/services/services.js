@@ -16,11 +16,7 @@ const Services = () => {
           <ul className={classes.service__list}>
             <li>
               <BiCheck className={classes.service__icon} />
-              <p><b>Responsive Web Design</b>: Crafting fluid and responsive web layouts that adapt seamlessly across devices and screen sizes, ensuring an optimal user experience for all users.</p>
-            </li>
-            <li>
-              <BiCheck className={classes.service__icon} />
-              <p><b>User Interface (UI) Development</b>: Translating design mockups into pixel-perfect, interactive UIs using modern HTML, CSS, and JavaScript frameworks, paying attention to detail and consistency.</p>
+              <p><b>Responsive Web Design</b>: Crafting responsive web layouts that adapt seamlessly across devices and screen sizes, ensuring an optimal user experience for all users.</p>
             </li>
             <li>
               <BiCheck className={classes.service__icon} />
@@ -28,7 +24,7 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className={classes.service__icon} />
-              <p><b>Interactive Web Elements</b>: Building dynamic and engaging components such as sliders, carousels, accordions, and modals to keep users engaged and enhance the interactivity of your web application.</p>
+              <p><b>Interactive Web Elements</b>: Building dynamic components to keep users engaged and enhance the interactivity.</p>
             </li>
           </ul>
         </article>
@@ -40,27 +36,15 @@ const Services = () => {
           <ul className={classes.service__list}>
             <li>
               <BiCheck className={classes.service__icon} />
-              <p><b>API Development</b>: Designing and building RESTful or GraphQL APIs that serve as the backbone of your applications, enabling seamless communication between the frontend and backend.</p>
+              <p><b>API Development</b>: Designing and building RESTful APIs that serve as the backbone of your applications, enabling seamless communication between the frontend and backend.</p>
             </li>
             <li>
               <BiCheck className={classes.service__icon} />
-              <p><b>Server Logic</b>: Database Architecture: Developing well-structured database schemas, leveraging both SQL and NoSQL databases, to ensure efficient data storage, retrieval, and management.</p>
+              <p><b>Database Architecture</b>: Developing well-structured database schemas to ensure efficient data storage, retrieval, and management.</p>
             </li>
             <li>
               <BiCheck className={classes.service__icon} />
-              <p><b>Server Logic: </b>Implementing intricate business logic and algorithms on the server side to handle complex tasks, calculations, and data manipulations.</p>
-            </li>
-            <li>
-              <BiCheck className={classes.service__icon} />
-              <p><b>Authentication and Security</b>: Integrating secure authentication and authorization mechanisms to safeguard user data and restrict access to sensitive functionalities.</p>
-            </li>
-            <li>
-              <BiCheck className={classes.service__icon} />
-              <p><b>Performance Optimization</b>: Profiling and optimizing backend code to ensure swift response times, minimal latency, and efficient resource utilization, even under heavy loads.</p>
-            </li>
-            <li>
-              <BiCheck className={classes.service__icon} />
-              <p><b>API Documentation</b>: Creating clear and comprehensive API documentation for developers and external partners, making integration and collaboration seamless.</p>
+              <p><b>Performance Optimisation</b>: Profiling and optimising backend code to ensure swift response times, minimal latency, and efficient resource utilisation.</p>
             </li>
           </ul>
         </article>
@@ -72,15 +56,15 @@ const Services = () => {
           <ul className={classes.service__list}>
             <li>
               <BiCheck className={classes.service__icon} />
-              <p><b>Cloud Architecture</b>: Designing cloud-native architectures that leverage the power of leading cloud providers like AWS enabling flexibility, scalability, and cost-effectiveness.</p>
+              <p><b>Cloud Architecture</b>: Designing AWS cloud architectures that enables flexibility, scalability, and cost-effectiveness.</p>
             </li>
             <li>
               <BiCheck className={classes.service__icon} />
-              <p><b>Containerization</b>: Implementing Docker to streamline deployment, scaling, and management of applications in containerized environments.</p>
+              <p><b>Containerisation</b>: Implementing Docker to streamline deployment, scaling, and management of applications in containerized environments.</p>
             </li>
             <li>
               <BiCheck className={classes.service__icon} />
-              <p><b>Server Provisioning and Configuration</b>: Setting up new Linux servers with the appropriate operating system, configuring networking, security settings, and essential software packages.</p>
+              <p><b>Server Provisioning and Configuration</b>: Setting up servers on operating systems, configuring networking, security settings, and essential software packages.</p>
             </li>
           </ul>
         </article>
