@@ -2,7 +2,7 @@ import React from 'react'
 import classes from './testimonials.module.css';
 import Image from 'next/image';
 // import Swiper core and required modules
-import {Pagination} from 'swiper';
+import { Pagination } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -37,12 +37,12 @@ const testimonials = () => {
         pagination={{ clickable: true }}
       >
         {
-          data.map(({avatar, name, review}, index) => {
+          data.map(({ avatar, name, review }, index) => {
             return (
-              
+
               <SwiperSlide key={index} className={classes.testimonial}>
                 <div className={classes.client__avatar}>
-                  <Image src={avatar} alt="" height="400rem" width="400rem"/>
+                  <Image src={avatar} alt="" height="400rem" width="400rem" />
                 </div>
                 <h5 className={classes.client__name}>{name}</h5>
                 <small className={classes.client__review}>
@@ -52,7 +52,7 @@ const testimonials = () => {
             )
           })
         }
-        
+
       </Swiper>
     </section>
   )

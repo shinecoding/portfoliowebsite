@@ -5,18 +5,14 @@ import Footer from './footer';
 import Nav from './nav';
 
 
-const layer = ({children}) => {
+const layer = ({ children }) => {
   return (
     <div>
-        <Head>
-
-        </Head>
-
-        <Header />
-        <Nav />
-        {children}
-        <Footer/>
-
+      <Head />
+      <Header />
+      <Nav />
+      {children}
+      <Footer />
     </div>
   )
 }

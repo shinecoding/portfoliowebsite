@@ -1,6 +1,6 @@
 import React from 'react'
 import classes from './services.module.css';
-import {BiCheck} from 'react-icons/bi';
+import { BiCheck } from 'react-icons/bi';
 
 
 const Services = () => {
@@ -8,7 +8,6 @@ const Services = () => {
     <section id="services">
       <h5>What I Offer</h5>
       <h2>Services</h2>
-
       <div className={`container ${classes.services__container}`}>
         <article className={classes.service}>
           <div className={classes.service__head}>
