@@ -67,7 +67,7 @@ const Services = () => {
         {/* END OF WEB DEVELOPMENT */}
         <article className={classes.service}>
           <div className={classes.service__head}>
-            <h3>Infrastructure</h3>
+            <h3>Cloud Infrastructure</h3>
           </div>
           <ul className={classes.service__list}>
             <li>

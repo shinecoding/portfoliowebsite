@@ -1,9 +1,7 @@
 import React from 'react'
 import classes from './about.module.css';
 import Image from 'next/image';
-import { FaAward } from 'react-icons/fa';
-import { FiUsers } from 'react-icons/fi';
-import { VscFolderLibrary } from 'react-icons/vsc';
+import { FaAward, FaGraduationCap, FaBriefcase, FaConciergeBell } from 'react-icons/fa';
 
 const About = () => {
   return (
@@ -19,25 +17,31 @@ const About = () => {
         <div className={classes.about__content}>
           <div className={classes.about__cards}>
             <article className={classes.about__card}>
-              <FaAward className="about__icon" />
+              <FaBriefcase className="about__icon" />
               <h5>Experience</h5>
-              <small>3 Years</small><br />
-              <small>software engineer</small>
+              <small>Software Engineer, 3 Years</small>
             </article>
             <article className={classes.about__card}>
-              <FiUsers className="about__icon" />
-              <h5>Certificate</h5>
+              <FaGraduationCap className="about__icon" />
+              <h5>Education</h5>
+              <small>MSc Computer Science, Queen Mary University of London</small><br />
+              <small>(97th in the world for computer science)</small>
+            </article>
+            <article className={classes.about__card}>
+              <FaAward className="about__icon" />
+              <h5>Certification</h5>
+              <small>AWS Solutions Architect Associate</small><br />
+              <small>AWS Certified Cloud Practitioner</small><br />
               <small>Engineer Information Processing (National Technical Qualification Certificate)</small>
             </article>
             <article className={classes.about__card}>
-              <VscFolderLibrary className="about__icon" />
-              <h5>Education</h5>
-              <small>Intensive Web Development Course</small><br />
-              <small>Ewha Womans University</small>
+              <FaConciergeBell className="about__icon" />
+              <h5>Service</h5>
+              <small>As a skilled software engineer, I can help you build robust and scalable web applications tailored to your needs.</small>
             </article>
           </div>
           <p>
-            I consider myself a lifelong learner, that&apos;s the reason I&apos;m in tech. My primary focus is developing production-quality fullstack applications. I&apos;ve worked in all stages of web development, from software design to frontend, backend, and dev-ops.
+
           </p>
           <a href="#contact" className="btn btn-primary">Let&apos;s Talk</a>
         </div>
