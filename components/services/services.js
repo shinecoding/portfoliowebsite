@@ -16,15 +16,15 @@ const Services = () => {
           <ul className={classes.service__list}>
             <li>
               <BiCheck className={classes.service__icon} />
-              <p><b>Responsive Web Design</b>: Crafting responsive web layouts that adapt seamlessly across devices and screen sizes, ensuring an optimal user experience for all users.</p>
+              <small><b>Responsive Web Design</b>: Crafting responsive web layouts that adapt seamlessly across devices and screen sizes, ensuring an optimal user experience for all users.</small>
             </li>
             <li>
               <BiCheck className={classes.service__icon} />
-              <p><b>Integration with APIs</b>: Incorporating data and functionality from backend APIs, ensuring seamless communication between the frontend and backend systems.</p>
+              <small><b>Integration with APIs</b>: Incorporating data and functionality from backend APIs, ensuring seamless communication between the frontend and backend systems.</small>
             </li>
             <li>
               <BiCheck className={classes.service__icon} />
-              <p><b>Interactive Web Elements</b>: Building dynamic components to keep users engaged and enhance the interactivity.</p>
+              <small><b>Interactive Web Elements</b>: Building dynamic components to keep users engaged and enhance the interactivity.</small>
             </li>
           </ul>
         </article>
@@ -36,15 +36,15 @@ const Services = () => {
           <ul className={classes.service__list}>
             <li>
               <BiCheck className={classes.service__icon} />
-              <p><b>API Development</b>: Designing and building RESTful APIs that serve as the backbone of your applications, enabling seamless communication between the frontend and backend.</p>
+              <small><b>API Development</b>: Building RESTful APIs that serve as the backbone of your applications, enabling seamless communication between the frontend and backend.</small>
             </li>
             <li>
               <BiCheck className={classes.service__icon} />
-              <p><b>Database Architecture</b>: Developing well-structured database schemas to ensure efficient data storage, retrieval, and management.</p>
+              <small><b>Database Architecture</b>: Developing well-structured database schemas to ensure efficient data storage, retrieval, and management.</small>
             </li>
             <li>
               <BiCheck className={classes.service__icon} />
-              <p><b>Performance Optimisation</b>: Profiling and optimising backend code to ensure swift response times, minimal latency, and efficient resource utilisation.</p>
+              <small><b>Performance Optimisation</b>: Profiling and optimising backend code to ensure swift response times, minimal latency, and efficient resource utilisation.</small>
             </li>
           </ul>
         </article>
@@ -56,15 +56,15 @@ const Services = () => {
           <ul className={classes.service__list}>
             <li>
               <BiCheck className={classes.service__icon} />
-              <p><b>Cloud Architecture</b>: Designing AWS cloud architectures that enables flexibility, scalability, and cost-effectiveness.</p>
+              <small><b>Cloud Architecture</b>: Designing AWS cloud architectures that enables flexibility, scalability, and cost-effectiveness.</small>
             </li>
             <li>
               <BiCheck className={classes.service__icon} />
-              <p><b>Containerisation</b>: Implementing Docker to streamline deployment, scaling, and management of applications in containerized environments.</p>
+              <small><b>Containerisation</b>: Implementing Docker to streamline deployment, scaling, and management of applications in containerized environments.</small>
             </li>
             <li>
               <BiCheck className={classes.service__icon} />
-              <p><b>Server Provisioning and Configuration</b>: Setting up servers on operating systems, configuring networking, security settings, and essential software packages.</p>
+              <small><b>Server Provisioning and Configuration</b>: Setting up servers on operating systems, configuring networking, security settings, and essential software packages.</small>
             </li>
           </ul>
         </article>
