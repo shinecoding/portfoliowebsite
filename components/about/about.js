@@ -13,7 +13,7 @@ const About = () => {
       <div className={`container ${classes.about__container}`}>
         <div className={classes.about__me}>
           <div className={classes.about__image}>
-          <Image src="/me-about.png" width="500rem" height="500rem" alt="About Image"/>
+          <Image src="/me-about.webp" width="500rem" height="500rem" alt="About Image"/>
           </div>
         </div>
         <div className={classes.about__content}>
