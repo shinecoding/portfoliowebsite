@@ -34,11 +34,6 @@ const About = () => {
               <small>AWS Certified Cloud Practitioner</small><br />
               <small>Engineer Information Processing (National Technical Qualification Certificate)</small>
             </article>
-            <article className={classes.about__card}>
-              <FaConciergeBell className="about__icon" />
-              <h5>Service</h5>
-              <small>As a skilled software engineer, I can help you build robust and scalable web applications tailored to your needs.</small>
-            </article>
           </div>
           <p>
 
