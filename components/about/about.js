@@ -33,6 +33,7 @@ const About = () => {
               <small>AWS Solutions Architect Associate</small><br />
               <small>AWS Certified Cloud Practitioner</small><br />
               <small>Engineer Information Processing (National Technical Qualification Certificate)</small>
+              <small>Github Foundations Certification</small><br />
             </article>
           </div>
           <p>
