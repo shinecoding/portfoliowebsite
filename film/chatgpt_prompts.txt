@@ -1,0 +1,40 @@
+=== ① 정면 전신 (증명사진 + 스타일 사진 2장 업로드) → start_front.png ===
+
+Image 1 (ID photo) is the face reference. Image 2 is the style reference for hair and outfit.
+
+Create a NEW photo, not an edit of either image. Keep the face of Image 1 exactly: same face shape, eyes, eyebrows, nose, lips and skin tone. Gentle, kind eyes, soft pink lips, natural makeup.
+
+HAIR
+Long straight black hair with a center part, pulled back into a low ponytail that is hidden behind the head and not visible from the front. No hair bow, no hair accessories. Small silver drop earrings.
+
+POSE
+Full body, standing in the exact center of the frame, facing the camera, arms relaxed at the sides, a confident warm smile. Tall, slender build with long legs. Head to toe visible with space above the head and below the feet.
+
+OUTFIT
+Black collared satin blouse, ivory high-waisted bias-cut satin midi skirt, nude low-heel pumps.
+
+LIGHT
+Pure black background, completely dark empty studio. Strong warm rose-gold rim light from behind on both sides, clearly outlining the hair, shoulders, black blouse and body edges so the black blouse stands out from the black background. Soft spotlight from above that lights the face naturally. Realistic soft shadows. No floor texture, no props, no glowing halo.
+
+STYLE
+Photorealistic cinematic film still, 85mm lens, natural skin texture, 16:9 landscape.
+
+
+=== ② 뒷모습 (같은 대화창에서 이어서) → start_back.png ===
+
+Same person, same outfit, same studio and lighting, same framing and position in the frame. Now the person stands with their BACK to the camera, arms relaxed, head to toe visible. 16:9 landscape.
+
+
+=== 필요할 때: 수정 요청 ===
+
+[얼굴이 덜 닮았을 때]
+Make the face match the uploaded photo more closely, especially the eyes, eyebrows and lips. Keep everything else exactly the same.
+
+[검은 블라우스가 배경에 묻힐 때]
+Make the rim light stronger and brighter so the black blouse and body outline are clearly visible against the black background. Keep everything else exactly the same.
+
+[정사각형으로 나왔을 때]
+Recreate the same image in 16:9 landscape format, with the person in the center and head to toe visible.
+
+[② 위치나 크기가 ①과 다를 때]
+Match the exact position, size and framing of the person in the previous front-facing image.

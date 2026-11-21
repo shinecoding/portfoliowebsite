@@ -1,0 +1,137 @@
+GOOGLE FLOW PROMPTS: copy one whole block and paste it into Flow.
+Settings: 16:9 · Veo 3.1 (Fast to test / Quality for final) · 2 outputs · 8 s · download in 1080p
+
+======================================================================
+CLIP 1 · Turn around   (first frame: start_back.png / last frame: start_front.png)
+======================================================================
+
+SHOT
+One single continuous camera shot with no cuts, no dissolves and no transitions.
+
+PERSON
+The same young East Asian person with long straight black hair parted in the middle and pulled back, small silver drop earrings, wearing a black collared satin blouse, an ivory bias-cut satin midi skirt and nude low-heel pumps.
+Their face, hair and outfit stay exactly the same. Only one person in the frame.
+
+STUDIO
+A pure black empty studio. A strong warm rose-gold rim light outlines the body and hair at all times, with a soft overhead spotlight. The background stays completely black.
+
+SOUND
+No music, no dialogue.
+
+ACTION
+The person stands with their back to the camera, then slowly turns around to face the camera, looks into the lens and gives a confident, warm smile. Static camera, full body framing.
+
+
+======================================================================
+CLIP 2 · Close-up   (first frame: clip1_last.png)
+======================================================================
+
+SHOT
+One single continuous camera shot with no cuts, no dissolves and no transitions.
+
+PERSON
+The same young East Asian person with long straight black hair parted in the middle and pulled back, small silver drop earrings, wearing a black collared satin blouse, an ivory bias-cut satin midi skirt and nude low-heel pumps.
+Their face, hair and outfit stay exactly the same. Only one person in the frame.
+
+STUDIO
+A pure black empty studio. A strong warm rose-gold rim light outlines the body and hair at all times, with a soft overhead spotlight. The background stays completely black.
+
+SOUND
+No music, no dialogue.
+
+ACTION
+The person takes two slow, confident steps toward the camera, stops, and smiles warmly at the lens with a slight nod. Static camera.
+
+
+======================================================================
+CLIP 3 · Sit down   (first frame: clip2_last.png)
+======================================================================
+
+SHOT
+One single continuous camera shot with no cuts, no dissolves and no transitions.
+
+PERSON
+The same young East Asian person with long straight black hair parted in the middle and pulled back, small silver drop earrings, wearing a black collared satin blouse, an ivory bias-cut satin midi skirt and nude low-heel pumps.
+Their face, hair and outfit stay exactly the same. Only one person in the frame.
+
+STUDIO
+A pure black empty studio. A strong warm rose-gold rim light outlines the body and hair at all times, with a soft overhead spotlight. The background stays completely black.
+
+SOUND
+No music, no dialogue.
+
+ACTION
+Starting from the close-up, the camera slowly pulls back in one continuous move to a wide full-body shot. The person stays facing the camera, never turns their back, takes one small step backward and sits down on a simple modern white chair right behind them, crosses their legs and smiles.
+
+
+======================================================================
+CLIP 4 · Desk + typing   (first frame: clip3_last.png)
+======================================================================
+
+SHOT
+One single continuous camera shot with no cuts, no dissolves and no transitions.
+
+PERSON
+The same young East Asian person with long straight black hair parted in the middle and pulled back, small silver drop earrings, wearing a black collared satin blouse, an ivory bias-cut satin midi skirt and nude low-heel pumps.
+Their face, hair and outfit stay exactly the same. Only one person in the frame.
+
+STUDIO
+A pure black empty studio. A strong warm rose-gold rim light outlines the body and hair at all times, with a soft overhead spotlight. The background stays completely black.
+
+SOUND
+No music, no dialogue.
+
+ACTION
+Static wide camera. A sleek white desk with an open silver laptop slides in smoothly from the right side of the frame on its own and stops right in front of the person. They uncross their legs, lean forward, pull the laptop closer and start typing, focused, with a small smile.
+
+
+======================================================================
+CLIP 5 · Walk left   (first frame: clip4_last.png)
+======================================================================
+
+SHOT
+One single continuous camera shot with no cuts, no dissolves and no transitions.
+
+PERSON
+The same young East Asian person with long straight black hair parted in the middle and pulled back, small silver drop earrings, wearing a black collared satin blouse, an ivory bias-cut satin midi skirt and nude low-heel pumps.
+Their face, hair and outfit stay exactly the same. Only one person in the frame.
+
+STUDIO
+A pure black empty studio. A strong warm rose-gold rim light outlines the body and hair at all times, with a soft overhead spotlight. The background stays completely black.
+
+SOUND
+No music, no dialogue.
+
+ACTION
+Static wide camera. The person stops typing, stands up and steps out from behind the desk to the left. They walk slowly toward the left side of the frame in side profile, stop on the left third, fully visible from head to toe, and smile at the camera. The desk, laptop and chair stay where they are.
+
+
+======================================================================
+CLIP 6 · Pull down + wave   (first frame: clip5_last.png)
+======================================================================
+
+SHOT
+One single continuous camera shot with no cuts, no dissolves and no transitions.
+
+PERSON
+The same young East Asian person with long straight black hair parted in the middle and pulled back, small silver drop earrings, wearing a black collared satin blouse, an ivory bias-cut satin midi skirt and nude low-heel pumps.
+Their face, hair and outfit stay exactly the same. Only one person in the frame.
+
+STUDIO
+A pure black empty studio. A strong warm rose-gold rim light outlines the body and hair at all times, with a soft overhead spotlight. The background stays completely black.
+
+SOUND
+No music, no dialogue.
+
+ACTION
+The camera stays completely still. The person raises both hands above their head, grabs something invisible and smoothly pulls it down to chest height, like pulling down a screen, holds that pose, then lowers their hands, smiles and gently waves hello with their right hand.
+
+
+======================================================================
+FIX LINES: add to the end of the prompt and generate again
+======================================================================
+[White halo]  Natural soft edges, no glowing outlines, no halo around the body.
+[Hands leave the frame]  Their hands stay inside the frame at all times. Slightly wider framing.
+[Grey background / lamps]  The background stays completely black. No walls, no light stands, no lamps visible.
+[Black blouse disappears]  The rim light clearly separates the black blouse from the black background.
+[Cut mid-clip / face changes]  Make an image of the end pose and set it as the LAST frame.
