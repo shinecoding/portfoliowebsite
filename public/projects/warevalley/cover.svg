@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" font-family="Menlo, Consolas, 'SFMono-Regular', monospace">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="0%" r="80%">
+      <stop offset="0" stop-color="#f2a48f" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#f2a48f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="#0a0807"/>
+  <rect width="1600" height="900" fill="url(#glow)"/>
+
+  <!-- left: MongoDB shell -->
+  <rect x="90" y="190" width="620" height="520" rx="22" fill="#14100d" stroke="#3a2e27"/>
+  <circle cx="128" cy="226" r="7" fill="#3a2e27"/><circle cx="152" cy="226" r="7" fill="#3a2e27"/><circle cx="176" cy="226" r="7" fill="#3a2e27"/>
+  <text x="130" y="300" fill="#a39b91" font-size="22">mongo shell</text>
+  <text x="130" y="370" fill="#f5efe7" font-size="28">db.orders.find(</text>
+  <text x="160" y="420" fill="#f5efe7" font-size="28">{ status: <tspan fill="#f2a48f">"paid"</tspan>,</text>
+  <text x="182" y="470" fill="#f5efe7" font-size="28">total: { <tspan fill="#f2a48f">$gt</tspan>: 100 } }</text>
+  <text x="130" y="520" fill="#f5efe7" font-size="28">)</text>
+  <text x="130" y="590" fill="#f5efe7" font-size="28">.sort({ date: -1 })</text>
+  <text x="130" y="640" fill="#f5efe7" font-size="28">.limit(<tspan fill="#f2a48f">20</tspan>)</text>
+
+  <!-- arrow -->
+  <line x1="740" y1="450" x2="850" y2="450" stroke="#f2a48f" stroke-width="4"/>
+  <path d="M846 432 L874 450 L846 468 Z" fill="#f2a48f"/>
+  <text x="808" y="420" fill="#a39b91" font-size="18" text-anchor="middle">interpret</text>
+
+  <!-- right: Java -->
+  <rect x="890" y="190" width="620" height="520" rx="22" fill="#14100d" stroke="#f2a48f" stroke-opacity="0.55"/>
+  <circle cx="928" cy="226" r="7" fill="#3a2e27"/><circle cx="952" cy="226" r="7" fill="#3a2e27"/><circle cx="976" cy="226" r="7" fill="#3a2e27"/>
+  <text x="930" y="300" fill="#a39b91" font-size="22">Java</text>
+  <text x="930" y="370" fill="#f5efe7" font-size="24">orders.find(<tspan fill="#f2a48f">and</tspan>(</text>
+  <text x="960" y="415" fill="#f5efe7" font-size="24"><tspan fill="#f2a48f">eq</tspan>("status", "paid"),</text>
+  <text x="960" y="460" fill="#f5efe7" font-size="24"><tspan fill="#f2a48f">gt</tspan>("total", 100)))</text>
+  <text x="930" y="530" fill="#f5efe7" font-size="24">  .sort(<tspan fill="#f2a48f">descending</tspan>("date"))</text>
+  <text x="930" y="575" fill="#f5efe7" font-size="24">  .limit(20);</text>
+
+  <text x="800" y="810" fill="#a39b91" font-size="22" text-anchor="middle" letter-spacing="6">MONGODB SHELL → JAVA INTERPRETER</text>
+</svg>
