@@ -34,3 +34,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# cinematic film sources (large)
+/film/clips/*.mp4
+/film/frames/
+/film/film_master.mp4
+/film/corner.png
