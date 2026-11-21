@@ -32,10 +32,10 @@ const STILL = [
 ];
 const STILL_FRAME = { x: 0.17, y: 0.05, w: 0.32, h: 0.93 };
 
-function buildTimeline(vh) {
+function buildTimeline(vh, mobile) {
   let y = 0;
   const segs = CONFIG.segments.map((seg) => {
-    const len = seg.h * vh;
+    const len = (mobile && seg.mh != null ? seg.mh : seg.h) * vh;
     const out = { ...seg, y0: y, y1: y + len };
     y += len;
     return out;
@@ -216,7 +216,7 @@ export default function CinematicPortfolio() {
       vw = window.innerWidth;
       vh = window.innerHeight;
       mobile = vw <= 760;
-      tlRef.current = buildTimeline(vh);
+      tlRef.current = buildTimeline(vh, mobile);
       spacerRef.current.style.height = `${tlRef.current.total + vh}px`;
     };
     tlRef.current = null;

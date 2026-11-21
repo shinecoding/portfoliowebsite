@@ -98,12 +98,14 @@ const CONFIG = {
 
   // Scroll → film time. t:[from,to]; from === to is a HOLD (film pauses).
   // h = how many viewport heights of scrolling the segment takes.
+  // mh = mobile override. A thumb flick covers several screens, so the
+  // walk needs more scroll or she rushes the camera.
   // After building YOUR film, run `./film/build_film.sh frames`, look at the
   // frames and replace these seconds. Open the site with ?debug to see t live.
   segments: [
     { t: [0, 6.0], h: 1.6 },            // turns around
     { t: [6.0, 6.0], h: 1.0, id: 'intro' },
-    { t: [6.0, 15.5], h: 1.8 },         // walks in → close-up
+    { t: [6.0, 15.5], h: 1.8, mh: 6 },  // walks in → close-up
     { t: [15.5, 15.5], h: 1.2, id: 'about' },
     { t: [15.5, 27.0], h: 2.4 },        // pulls back, sits, desk slides in
     { t: [27.0, 27.0], h: 2.0, id: 'work' },
