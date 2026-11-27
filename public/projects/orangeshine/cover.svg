@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" font-family="Menlo, Consolas, 'SFMono-Regular', monospace">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="0%" r="80%">
+      <stop offset="0" stop-color="#f2a48f" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#f2a48f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="#0a0807"/>
+  <rect width="1600" height="900" fill="url(#glow)"/>
+
+  <!-- left: legacy Django view -->
+  <rect x="90" y="190" width="620" height="520" rx="22" fill="#14100d" stroke="#3a2e27"/>
+  <circle cx="128" cy="226" r="7" fill="#3a2e27"/><circle cx="152" cy="226" r="7" fill="#3a2e27"/><circle cx="176" cy="226" r="7" fill="#3a2e27"/>
+  <text x="130" y="300" fill="#a39b91" font-size="22">views.py · legacy</text>
+  <text x="130" y="370" fill="#f5efe7" font-size="26"><tspan fill="#f2a48f">def</tspan> product_list(request):</text>
+  <text x="160" y="420" fill="#f5efe7" font-size="26">items = Product.objects</text>
+  <text x="190" y="470" fill="#f5efe7" font-size="26">.filter(vendor=v,</text>
+  <text x="220" y="520" fill="#f5efe7" font-size="26">category=<tspan fill="#f2a48f">"dresses"</tspan>)</text>
+  <text x="160" y="590" fill="#f5efe7" font-size="26"><tspan fill="#f2a48f">return</tspan> render(request,</text>
+  <text x="190" y="640" fill="#f5efe7" font-size="26"><tspan fill="#f2a48f">"catalog.html"</tspan>, ...)</text>
+
+  <!-- arrow -->
+  <line x1="740" y1="450" x2="850" y2="450" stroke="#f2a48f" stroke-width="4"/>
+  <path d="M846 432 L874 450 L846 468 Z" fill="#f2a48f"/>
+
+  <!-- right: new wholesale catalogue page -->
+  <rect x="890" y="190" width="620" height="520" rx="22" fill="#14100d" stroke="#3a2e27"/>
+  <circle cx="928" cy="226" r="7" fill="#3a2e27"/><circle cx="952" cy="226" r="7" fill="#3a2e27"/><circle cx="976" cy="226" r="7" fill="#3a2e27"/>
+  <text x="930" y="300" fill="#a39b91" font-size="22">new page · wholesale catalogue</text>
+  <rect x="930" y="330" width="540" height="44" rx="10" fill="#1f1915" stroke="#3a2e27"/>
+  <text x="952" y="360" fill="#a39b91" font-size="20">Search styles, vendors…</text>
+  <g fill="#1f1915" stroke="#3a2e27">
+    <rect x="930" y="400" width="164" height="190" rx="12"/>
+    <rect x="1118" y="400" width="164" height="190" rx="12"/>
+    <rect x="1306" y="400" width="164" height="190" rx="12"/>
+  </g>
+  <g fill="#2a211c">
+    <rect x="946" y="416" width="132" height="110" rx="8"/>
+    <rect x="1134" y="416" width="132" height="110" rx="8"/>
+    <rect x="1322" y="416" width="132" height="110" rx="8"/>
+  </g>
+  <g fill="#f5efe7" font-size="18">
+    <text x="946" y="556">Pack of 6</text><text x="1134" y="556">Pack of 12</text><text x="1322" y="556">Pack of 6</text>
+  </g>
+  <g fill="#f2a48f" font-size="18">
+    <text x="946" y="578">$8.50 / ea</text><text x="1134" y="578">$5.25 / ea</text><text x="1322" y="578">$9.75 / ea</text>
+  </g>
+  <rect x="930" y="620" width="540" height="56" rx="12" fill="#f2a48f"/>
+  <text x="1200" y="656" fill="#0a0807" font-size="22" text-anchor="middle">Add to order</text>
+</svg>

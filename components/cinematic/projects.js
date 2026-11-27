@@ -80,6 +80,29 @@ const PROJECTS = [
   },
 
   {
+    slug: 'fashion-wholesale-marketplace',
+    title: 'Fashion Wholesale Marketplace',
+    subtitle: 'Legacy fixes and new pages for a B2B fashion wholesale platform',
+    tech: 'Python · Django · React',
+    image: '/projects/orangeshine/cover.svg',
+    kind: 'Work project',
+    company: 'OrangeShine',
+    period: 'Aug – Dec 2023',
+    team: 'Team of 4',
+    stack: ['Python', 'Django', 'React', 'jQuery', 'HTML', 'CSS', 'TailwindCSS', 'SQL Server', 'AWS', 'Bitbucket', 'Jira', 'Confluence'],
+    overview: [
+      'OrangeShine is a B2B marketplace where fashion retailers buy from wholesale vendors. I worked on its large Python/Django codebase, fixing and extending legacy features and adding new pages.',
+      'I worked in a team of four in Agile/Scrum sprints, planning and tracking work in Jira and documenting it in Confluence.',
+    ],
+    role: [
+      'Fixed and extended legacy features in the Django codebase',
+      'Built new pages with Django and React across product search, order management, the seller dashboard and payments',
+      'Delivered work in Agile/Scrum sprints with Jira and Confluence',
+    ],
+    confidential: true,
+  },
+
+  {
     slug: 'recycling-platform',
     title: 'Recycling Platform',
     subtitle: 'A marketplace for trading recyclable goods',
