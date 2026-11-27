@@ -12,17 +12,17 @@ const PROJECTS = [
     tech: 'React Native · Spring Boot · AWS',
     image: '/projects/snapquest/cover.webp',
     kind: 'Startup project',
-    company: 'SHINECODING LTD',
     period: '2025 – Present',
-    stack: ['TypeScript', 'React Native', 'Expo', 'Java 21', 'Spring Boot', 'Spring Security', 'JWT', 'JPA', 'Flyway', 'PostgreSQL', 'Python', 'scikit-learn', 'Stripe', 'Firebase', 'Docker', 'Terraform', 'AWS EC2', 'ALB', 'ECR', 'S3', 'Route 53', 'SES', 'SNS', 'CloudWatch', 'React', 'Vite', 'TailwindCSS'],
+    stack: ['TypeScript', 'React Native', 'Expo', 'Java 21', 'Spring Boot', 'Spring Security', 'JWT', 'JPA', 'Flyway', 'PostgreSQL', 'JUnit 5', 'Mockito', 'Python', 'scikit-learn', 'Stripe', 'Firebase', 'Docker', 'Terraform', 'AWS EC2', 'ALB', 'ECR', 'S3', 'Route 53', 'SES', 'SNS', 'CloudWatch', 'React', 'Vite', 'TailwindCSS'],
     overview: [
       'SnapQuest turns a habit into a quest: a fixed duration, a frequency, a daily time window and a “snap method” that defines what valid proof looks like. Each day members prove the habit with a photo snap taken inside the window.',
       'Members put up participation credits that come back depending on how consistently they showed up, and anyone can lead a quest that others join as a guild. It started as my MSc dissertation and runs on iOS and Android from one codebase.',
     ],
     features: [
       { title: 'Quests and guilds', body: 'A multi-step quest builder (category, snap method, frequency, duration, start time, timezone, public or private with a passcode) with resumable drafts, category browsing, search and shareable deep links.' },
-      { title: 'Verified snaps', body: 'Snaps only count inside the quest’s time window, either once a day or as a start snap plus an after snap. Device attestation and capture metadata are used to verify them, and members can report snaps.' },
-      { title: 'Credits and settlement', body: 'Credits are topped up through in-app purchase or Stripe, tracked in a balance history and redeemable for vouchers. Each quest is settled from members’ verified snaps against the stated rules.' },
+      { title: 'Verified snaps', body: 'Snaps only count inside the quest’s time window, either once a day or as a start snap plus an after snap. Device attestation (Google Play Integrity and iOS) with single-use nonces and capture metadata is used to verify them, and members can report snaps.' },
+      { title: 'Idempotent payments', body: 'Credits are bought through Google Play in-app purchase or Stripe. Every purchase is verified server-side with the provider and recorded idempotently, with database-level safeguards, so a duplicate, replayed or concurrent request can never credit an account twice.' },
+      { title: 'Batch settlement', body: 'A daily batch job settles each finished quest: it scores every member’s completion rate, refunds full or partial stakes, pays bonuses and books forfeited credits to a treasury ledger. Each quest settles in its own transaction, so one failure never stops the batch.' },
       { title: 'AR camera game', body: 'An AR camera mini-game with a dungeon HUD, weapons and lives, so taking the daily snap feels like a quest.' },
       { title: 'Quest recommendations', body: 'A Python service trains a gradient-boosted classifier on past quests in a weekly batch and recommends quests each member is likely to complete.' },
       { title: 'Admin and moderation', body: 'A React admin dashboard for reviewing reports, quests and members, with push notifications and email for members.' },
@@ -30,7 +30,8 @@ const PROJECTS = [
     pipeline: [
       'Mobile app: Expo / React Native with TypeScript for iOS and Android, Firebase for analytics and push',
       'API: Java 21 and Spring Boot 3 with Spring Security and JWT, JPA, Flyway migrations and PostgreSQL',
-      'Payments: Stripe top-ups and in-app purchase verification',
+      'Payments: Stripe and Google Play purchases verified server-side and recorded idempotently',
+      'Settlement: daily batch job that refunds stakes, pays bonuses and records fees in a treasury ledger',
       'ML service: Python recommendation model, run as its own Docker service',
       'Infrastructure as code: Terraform on AWS (VPC, EC2, load balancer, ECR, S3, Route 53, SES, SNS, CloudWatch alarms)',
     ],
@@ -38,6 +39,7 @@ const PROJECTS = [
       'Designed the product, data model and system architecture',
       'Built the mobile app, the Spring Boot API, the admin dashboard and the recommendation service',
       'Wrote the AWS infrastructure in Terraform and shipped the services as Docker images',
+      'Wrote 249 unit and web-layer tests (JUnit 5, Mockito, MockMvc) with JaCoCo coverage reporting',
     ],
     gallery: [
       { src: '/projects/snapquest/explore.webp', caption: 'Explore quests', tall: true },
@@ -70,9 +72,9 @@ const PROJECTS = [
     ],
     role: [
       'Designed and implemented the interpreter using the Interpreter design pattern',
-      'Set up virtual machines with VMware and VirtualBox and configured Ubuntu and CentOS systems',
-      'Streamlined DevOps with CI/CD pipelines using Jenkins, GitLab and Docker',
-      'Installed and configured MySQL, Oracle, PostgreSQL, MariaDB and MongoDB, and reviewed hundreds of queries for each',
+      'Set up CI/CD pipelines with Jenkins, GitLab and Docker',
+      'Installed, configured and query-tuned MySQL, Oracle, PostgreSQL, MariaDB and MongoDB',
+      'Configured Ubuntu and CentOS environments on VMware and VirtualBox virtual machines',
     ],
     confidential: true,
   },
@@ -90,7 +92,7 @@ const PROJECTS = [
     stack: ['Python', 'Django', 'Django REST Framework', 'Django Channels', 'Redis', 'MySQL', 'Docker', 'AWS Elastic Beanstalk', 'ElastiCache', 'EC2', 'S3', 'RDS', 'Route 53', 'IAM', 'Certificate Manager', 'pytest', 'Swagger'],
     overview: [
       'A platform where buyers and sellers trade recyclable products. I built the entire production backend on my own and handled the whole deployment.',
-      'As an early-stage startup the requirements changed fast and often, so the backend was rebuilt several times with different approaches. That taught me a lot of ways to structure a backend, though the site has not launched because the requirements kept changing.',
+      'As an early-stage startup the requirements changed fast and often, so the backend was rebuilt several times with different approaches. That taught me a lot of ways to structure a backend.',
     ],
     role: [
       'Designed the database architecture',
