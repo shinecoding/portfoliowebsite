@@ -6,9 +6,9 @@
 
 const PROJECTS = [
   {
-    slug: 'snapquest',
-    title: 'SnapQuest',
-    subtitle: 'A habit app where verified photo snaps keep you on quest',
+    slug: 'fintech-habit-app',
+    title: 'Fintech Habit App',
+    subtitle: 'SnapQuest: stake credits on a habit and earn them back with verified photo snaps',
     tech: 'React Native · Spring Boot · AWS',
     image: '/projects/snapquest/cover.webp',
     kind: 'Startup project',
