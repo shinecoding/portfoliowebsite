@@ -471,7 +471,7 @@ export default function CinematicPortfolio() {
             {resume.experience.map((x) => <p key={x.title}><b>{x.title}</b><span>{x.meta}</span></p>)}
             <h3>Education</h3>
             {resume.education.map((x) => <p key={x.title}><b>{x.title}</b><span>{x.meta}</span></p>)}
-            <a className={s.dl} href={resume.file} download>Download CV ↓</a>
+            <a className={s.dl} href={resume.file} download="Christy_Choi_CV.pdf">Download CV ↓</a>
           </div>
         </section>
 
