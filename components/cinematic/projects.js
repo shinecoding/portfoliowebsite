@@ -96,7 +96,7 @@ const PROJECTS = [
     ],
     role: [
       'Fixed and extended legacy features in the Django codebase',
-      'Built new pages with Django and React across product search, order management, the seller dashboard and payments',
+      'Built new pages with Django and React across product search, order management and the seller dashboard',
       'Delivered work in Agile/Scrum sprints with Jira and Confluence',
     ],
     confidential: true,
