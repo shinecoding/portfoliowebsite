@@ -45,14 +45,14 @@ const CONFIG = {
     title: 'Tools I ship with',
     list: [
       'Java', 'Spring', 'Python', 'Django', 'React', 'React Native', 'TypeScript',
-      'JavaScript', 'AWS', 'Docker', 'PostgreSQL', 'MySQL', 'MongoDB', 'Terraform',
+      'JavaScript', 'AWS', 'Docker', 'PostgreSQL', 'Oracle', 'MySQL', 'MongoDB', 'Terraform', 'Jenkins',
     ],
     certTitle: 'Certified',
     // icon: aws | github | medal (see certIcons.js)
     // url: the credential link (Credly etc.). Empty → opens certsPage.
     certsPage: 'https://www.linkedin.com/in/christy-choi-dev/details/certifications/',
     certifications: [
-      { name: 'AWS Solutions Architect Associate', icon: 'aws', url: 'https://www.credly.com/badges/1fbcbd35-788d-4077-8b04-34a3de40f30e/linked_in_profile' },
+      { name: 'AWS Certified Solutions Architect – Associate', icon: 'aws', url: 'https://www.credly.com/badges/1fbcbd35-788d-4077-8b04-34a3de40f30e/linked_in_profile' },
       { name: 'AWS Certified Cloud Practitioner', icon: 'aws', url: 'https://www.credly.com/badges/dd9803d2-ee91-4e01-8bb2-1968c2504205/linked_in_profile' },
       { name: 'GitHub Foundations', icon: 'github', url: 'https://www.credly.com/badges/f9848c5f-733b-4b2d-87c6-3b98fd8d1288/linked_in_profile' },
       { name: 'Engineer Information Processing', icon: 'medal', url: 'https://www.linkedin.com/in/christy-choi-dev/details/certifications/' },
@@ -76,7 +76,7 @@ const CONFIG = {
 
   contact: {
     eyebrow: '05 — Contact',
-    title: ["Let's build something", 'together.'],
+    title: ["Let's", 'talk.'],
     email: 'christychoi.dev@gmail.com',
     links: [
       { label: 'LinkedIn', href: 'https://www.linkedin.com/in/christy-choi-dev/' },

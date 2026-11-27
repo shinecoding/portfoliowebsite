@@ -9,7 +9,7 @@ const PROJECTS = [
     slug: 'fintech-habit-app',
     title: 'Fintech Habit App',
     subtitle: 'SnapQuest: stake credits on a habit and earn them back with verified photo snaps',
-    tech: 'React Native · Spring Boot · AWS',
+    tech: 'Java · Spring Boot · React Native',
     image: '/projects/snapquest/cover.webp',
     kind: 'Startup project',
     period: '2025 – Present',
@@ -89,7 +89,7 @@ const PROJECTS = [
     company: 'Ugly Stone',
     period: 'Jan 2022 – Jun 2023',
     team: 'Team of 3 (frontend, backend, designer)',
-    stack: ['Python', 'Django', 'Django REST Framework', 'Django Channels', 'Redis', 'MySQL', 'Docker', 'AWS Elastic Beanstalk', 'ElastiCache', 'EC2', 'S3', 'RDS', 'Route 53', 'IAM', 'Certificate Manager', 'pytest', 'Swagger'],
+    stack: ['Python', 'Django', 'Django REST Framework', 'Django Channels', 'Redis', 'MySQL', 'Docker', 'AWS Elastic Beanstalk', 'ECS', 'ElastiCache', 'EC2', 'S3', 'RDS', 'Route 53', 'IAM', 'Certificate Manager', 'pytest', 'Swagger'],
     overview: [
       'A platform where buyers and sellers trade recyclable products. I built the entire production backend on my own and handled the whole deployment.',
       'As an early-stage startup the requirements changed fast and often, so the backend was rebuilt several times with different approaches. That taught me a lot of ways to structure a backend.',
@@ -99,10 +99,10 @@ const PROJECTS = [
       'JWT authentication, CRUD for every category, best-product lists, pagination and search filters',
       'S3 image upload and removal using an efficient data structure',
       'Asynchronous chat and notifications with Django Channels (WebSocket), Redis and ElastiCache, plus reporting and block lists for chat users',
-      'Deployed on AWS (Elastic Beanstalk, ElastiCache, EC2, S3, RDS, Route 53) and secured it with IAM and Certificate Manager',
+      'Deployed on AWS (Elastic Beanstalk, ECS, ElastiCache, EC2, S3, RDS, Route 53) and secured it with IAM and Certificate Manager',
       'Dockerised the app with a Dockerfile and docker-compose',
       'Added Swagger docs and worked closely with the React developer on the REST APIs',
-      'Tested with pytest and factory_boy; seeded data with django-seed',
+      'Tested with pytest and factory_boy to 95% coverage; seeded data with django-seed',
     ],
     metric: { value: '100 ms → 10–15 ms', label: 'Post loading time after adding a Redis cache' },
     gallery: [{ src: '/projects/recycling/1.webp', caption: 'Home page' }],
@@ -174,7 +174,7 @@ const PROJECTS = [
 
   {
     slug: 'meetingroom-booking-service',
-    title: 'Meetingroom Booking Service',
+    title: 'Meeting Room Booking Service',
     subtitle: 'Weekly and daily meeting room scheduler',
     tech: 'Java · Spring · MySQL',
     image: '/portfolio5.png',
@@ -199,7 +199,7 @@ const PROJECTS = [
 
   {
     slug: 'baby-sitting-platform',
-    title: 'Baby Sitting Platform',
+    title: 'Babysitter Matching Platform',
     subtitle: 'DolbomMon — a safe babysitter matching service',
     tech: 'Spring · Java · Oracle',
     image: '/portfolio6.png',
