@@ -13,7 +13,7 @@ const CONFIG = {
   accent: '#f2a48f', // rose-gold, matches the rim light in the film
 
   // Link preview (KakaoTalk, iMessage, Slack). image is public/og.jpg.
-  siteUrl: 'https://portfoliowebsite-shinecoding.vercel.app',
+  siteUrl: 'https://christychoi.vercel.app',
   share: {
     description:
       'London · Open to new opportunities. Backend engineer with 3+ years and an MSc in Computer Science.',
